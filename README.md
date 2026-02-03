@@ -17,19 +17,40 @@
 
 ## 2. Installation (설치 및 실행)
 
+> **참고:** 본 프로그램은 GUI 기반 위젯이므로 터미널만 있는(Headless) 환경에서는 실행할 수 없습니다.
+
 ### 1) Python 환경설치
 이 프로그램은 `python=3.11`에서 제작되었습니다. \
 다른 버전에서도 구동 가능하나 호환성을 고려하여 이 버전으로 설치하여 주세요.
 
+* **Download Python 3.11.14:** ```https://www.python.org/downloads/```
+* **Note:** 설치 시 **"Add Python to PATH"** 를 반드시 체크하세요!
+
 ### 2) Telegram 봇 개설
 프로그램을 사용하기 위해 전송 통로가 될 봇을 준비해야 합니다.
 1. 텔레그램에서 **@BotFather**를 검색하여 대화를 시작합니다.
+
+![image](docs/pictures/find_botfather.gif)
+
 2. `/newbot` 명령어로 봇을 생성하고 **Bot Token**을 발급받습니다.
-3. 내 **Chat ID**를 확인합니다. (확인 방법: `@userinfobot` 등 활용)
-4. 발급받은 **Token**과 **Chat ID**를 프로그램 최초 실행 시 뜨는 설정창에 입력하세요.
+
+![image](docs/pictures/make_newbot.gif)
+
+3. 새로 만든 봇을 시작하세요.
+
+![image](docs/pictures/start_newbot.gif)
+
+4. **Bot Token** 값을 아래 주소에 붙여넣어 브라우저에서 접속합니다. \
+그런 후 이 챗봇에게 아무말을 걸어보고 이 브라우저를 새로고침합니다. \
+그러면 새로고침했을 때 **Chat ID** 값이 나타납니다.
+
+> `https://api.telegram.org/bot[BOT TOKEN]/getUpdates`
+
+![image](docs/pictures/get_chat_id.png)
+
+5. 발급받은 **Bot Token**과 **Chat ID**를 잘 메모해두세요!
 
 ### 3) 운영체제별 실행 방법
-> **참고:** 본 프로그램은 GUI 기반 위젯이므로 터미널만 있는(Headless) 환경에서는 실행할 수 없습니다.
 
 * **Windows 🪟**
   - 프로젝트 폴더 내의 `run.bat` 파일을 더블 클릭합니다.
@@ -41,13 +62,23 @@
 
 ## 3. How to use? (사용 방법)
 
-### 1) 파일 및 텍스트 전송
-* 전송할 파일이나 이미지를 마우스로 끌어서 화면의 **보라색 웜홀 위젯** 위에 놓으세요.
+### 1) Bot Token과 Chat ID 입력
+* 잠시 기다리면 웜홀이 열립니다. 시스템 트레이에서 **설정**에 들어가세요.
+* 아까 메모한 **Bot Token**, **Chat ID**를 여기 적고 **저장**을 눌러주세요.
+
+![image](docs/pictures/setup_wormhole.png)
+
+### 2) 파일 및 텍스트 전송
+* 전송할 파일이나 이미지를 마우스로 끌어서 화면의 **보라색 테두리 웜홀 위젯** 위에 놓으세요.
 * 전송 중에는 웜홀이 가속되며, 전송 완료 시 시스템 트레이 알림이 표시됩니다.
 
-### 2) 메시지 및 클립보드 확인
+![image](docs/pictures/running.gif)
+
+### 3) 메시지 및 클립보드 확인
 * **웜홀 위젯의 테두리를 더블 클릭**하세요.
 * 연결된 텔레그램 챗봇 방이 즉시 열리며, 전송 내역 확인이나 텍스트 복사가 가능합니다.
+
+![image](docs\pictures\open_browser.gif)
 
 ---
 

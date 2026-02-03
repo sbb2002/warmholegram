@@ -17,19 +17,40 @@ Fast & Hassle-free Wormhole makes it easy to transfer files yourself. This appli
 
 ## 2. Installation & Execution
 
+> **Note:** This is a GUI-based widget and cannot be used in a terminal-only (headless) environment.
+
 ### 1) Python Installation
 This program was developed in `python=3.11`. \
 Although other versions of python were supported, I recommend this version considering dependencies.
 
+* **Download Python 3.11.14:** ```https://www.python.org/downloads/```
+* **Note:** When you installing, please check **"Add Python to PATH"** !
+
 ### 2) Creating a Telegram Bot
 You need to set up a bot to act as your personal transfer channel.
 1. Search for **@BotFather** on Telegram and start a chat.
+
+![image](docs/pictures/find_botfather.gif)
+
 2. Use the `/newbot` command to create a bot and receive your **Bot Token**.
-3. Find your **Chat ID**. (You can use bots like `@userinfobot` to find it.)
-4. Enter the **Token** and **Chat ID** in the settings window that appears when you first run the app.
+
+![image](docs/pictures/make_newbot.gif)
+
+3. Start your new bot.
+
+![image](docs/pictures/start_newbot.gif)
+
+4. Copy & paste your **Bot Token** at this URL. \
+Then, open the URL at the browser, and chat any words to your bot. \
+Finally, you can get **Chat ID** when refreshing the browser.
+
+> `https://api.telegram.org/bot[BOT TOKEN]/getUpdates`
+
+![image](docs/pictures/get_chat_id.png)
+
+5. Memorize your **Bot Token**, **Chat ID** !
 
 ### 3) Running the App by OS
-> **Note:** This is a GUI-based widget and cannot be used in a terminal-only (headless) environment.
 
 * **Windows 🪟**
   - Double-click the `run.bat` file in the project folder.
@@ -41,13 +62,23 @@ You need to set up a bot to act as your personal transfer channel.
 
 ## 3. How to use?
 
-### 1) Sending Files and Text
+### 1) Input your Bot Token & Chat ID
+* Wait a second... you can see the Wormhole is opening. Go to **Settings(설정)** menu at the system tray.
+* Register your **Bot Token** and **Chat ID**, and then **Save(저장)** .
+
+![image](docs/pictures/setup_wormhole.png)
+
+### 2) Sending Files and Text
 * Drag and drop files or images onto the **purple wormhole widget** on your screen.
 * The wormhole accelerates during transfer, and a system tray notification will appear once the transfer is complete.
 
-### 2) Checking Messages and Clipboard
+![image](docs/pictures/running.gif)
+
+### 3) Checking Messages and Clipboard
 * **Double-click the edge of the wormhole widget.**
 * Your Telegram bot chat will open immediately, allowing you to check sent history or copy text.
+
+![image](docs\pictures\open_browser.gif)
 
 ---
 
