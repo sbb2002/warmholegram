@@ -65,5 +65,5 @@ You need to set up a bot to act as your personal transfer channel.
 ## 6. Credits
 - `src/assets/andromeda.jpg`
 
-![image](src\assets\andromeda.jpg)
+![image](src/assets/andromeda.jpg)
 Captured by **NASA/JPL-Caltech/Univ. of Ariz. (Spitzer Space Telescope)**
