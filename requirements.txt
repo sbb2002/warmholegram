@@ -1,0 +1,3 @@
+PyQt5==5.15.10
+PyQt5-sip
+requests==2.31.0
