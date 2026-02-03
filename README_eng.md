@@ -17,14 +17,18 @@ Fast & Hassle-free Wormhole makes it easy to transfer files yourself. This appli
 
 ## 2. Installation & Execution
 
-### 1) Creating a Telegram Bot
+### 1) Python Installation
+This program was developed in `python=3.11`. \
+Although other versions of python were supported, I recommend this version considering dependencies.
+
+### 2) Creating a Telegram Bot
 You need to set up a bot to act as your personal transfer channel.
 1. Search for **@BotFather** on Telegram and start a chat.
 2. Use the `/newbot` command to create a bot and receive your **Bot Token**.
 3. Find your **Chat ID**. (You can use bots like `@userinfobot` to find it.)
 4. Enter the **Token** and **Chat ID** in the settings window that appears when you first run the app.
 
-### 2) Running the App by OS
+### 3) Running the App by OS
 > **Note:** This is a GUI-based widget and cannot be used in a terminal-only (headless) environment.
 
 * **Windows 🪟**
