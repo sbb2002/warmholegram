@@ -65,6 +65,6 @@
 ## 6. Credits
 - `src/assets/andromeda.jpg`
 
-![image](src/assets/andromeda.jpg)
-Captured by **NASA/JPL-Caltech/Univ. of Ariz. (Spitzer Space Telescope)** /
+![image](src/assets/andromeda.jpg) \
+Captured by **NASA/JPL-Caltech/Univ. of Ariz. (Spitzer Space Telescope)** \
 (https://images.nasa.gov/details/PIA07828)
